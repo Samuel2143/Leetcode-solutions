@@ -4,9 +4,9 @@ This repository contains my solutions to various Java programming problems from 
 
 ## Table of contents
 
-* About
-* How to use
-* Contributing
+* [About](#about)
+* [How to use](#how-to-use)
+* [Contributing](#contributing)
 
 ## About
 
@@ -61,4 +61,4 @@ Contributions are always welcome! Here's how you can contribute:
 
 
 
-   Happy Coding! 🚀
+   #### Happy Coding! 🚀
