@@ -1,5 +1,5 @@
 //There are two methods for solving this problem..
-// Method 1:
+// Method 1: This method is done using String Builder
 
 import java.util.*;
 public class LongestCommonPrefix {
@@ -20,17 +20,19 @@ public class LongestCommonPrefix {
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the array:");
         int n = sc.nextInt();
         sc.nextLine();
         String[] strs = new String[n];
+        System.out.println("Enter the elements in the array:");
         for(int i=0;i<n;i++){
             strs[i]=sc.nextLine();
         }
-        System.out.println(longestCommonPrefix(strs));
+        System.out.println("The longest common prefix is: " + longestCommonPrefix(strs));
     }
 }
 
-// Method 2:
+// Method 2: This method is done using substring
 
 import java.util.*;
 public class LongestCommonPrefix {
@@ -49,13 +51,15 @@ public class LongestCommonPrefix {
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the array:");
         int n = sc.nextInt();
         sc.nextLine();
         String[] strs = new String[n];
+        System.out.println("Enter the elements in the array:");
         for(int i=0;i<n;i++){
             strs[i]=sc.nextLine();
         }
-        System.out.println(longestCommonPrefix(strs));
+        System.out.println("The longest common prefix is: " +longestCommonPrefix(strs));
     }
 }
 
